@@ -832,7 +832,7 @@ types CourtPositionItems
 			datacontext = "[EmptyCourtPosition.GetType]"
 			datacontext = "[EmptyCourtPosition.GetCourtOwner]"
 
-			size = "[Select_CVector2f( DataModelHasItems( CourtPositionType.GetTasks ), '(CVector2f)537,200', '(CVector2f)537,200' )]"
+			size = "[Select_CVector2f( DataModelHasItems( CourtPositionType.GetTasks ), '(CVector2f)537,256', '(CVector2f)537,200' )]"
 
 			background = {
 				visible = "[And(Not( SelectedEmptyCourtPosition.SameAs( PdxGuiWidget.GetIndexInDataModel ) ), EmptyCourtPosition.CanHirePosition)]"
